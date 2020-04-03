@@ -1,0 +1,68 @@
+.tm-logo {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+.gallery{
+  margin: 10px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 250px;
+}
+
+.gallery img:hover{
+  filter: brightness(80%);
+  transform: scale(1.1);
+}
+
+.tm-gallery-img-container {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+.img-fluid-tm-gallery-img{
+    position: relative;
+    float: left;
+    width:  300px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+@media only screen and (max-width: 500px) {
+  .tm-img-grid{
+    margin-left: 10%;
+  }
+}
+.wrapper{
+  text-align: center;
+}
+
+.grid{
+    position: relative;
+    float: middle;
+    width:  360px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+#tm-footer {
+bottom: 0;
+width: 100%;
+background: #1a1a1a;
+}
+
+#tm-footer-text {
+ color: white;
+}
+
+footer img{
+  padding-top: 3px;
+}
