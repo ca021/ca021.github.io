@@ -9,6 +9,7 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 19px;
 	font-weight: 100;
+	overflow-x: hidden;
 }
 
 a, button { transition: all 0.3s ease; }
@@ -278,6 +279,127 @@ button:focus { outline: none; }
 	        justify-content: center;
 	padding-left: 3%;
 	padding-right: 3%;
+}
+
+.float-image-kincaids{
+	float: right;
+	margin-top: 70px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 376px;
+	width: 500px;
+}
+.float-image-lidl{
+	float: left;
+	margin-right: 30px;
+	margin-top: 70px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	height: 500px;
+	width: 375px;
+}
+.float-image-coffee{
+	float: right;
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 422px;
+	width: 600px;
+}
+.float-image-rain{
+	float: left;
+	margin-right: 30px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	height: 450px;
+	width: 314px;
+}
+.float-image-hp{
+	float: right;
+	margin-top: 70px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 422px;
+	width: 600px;
+}
+.padding-side-barrier{
+	padding-right: 30px;
+	padding-top: 110px;
+	padding-left: 30px;
+	line-height: 35px;
+	padding-bottom: 16px;
+}
+
+.float-image-school{
+	float: right;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 422px;
+	width: 600px;
+}
+.float-image-teviot{
+	float: left;
+	margin-right: 30px;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	height: 357px;
+	width: 700px;
+}
+.float-image-kings{
+	float: right;
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 467px;
+	width: 700px;
+}
+.float-image-appleton{
+	float: left;
+	margin-right: 30px;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	height: 340px;
+	width: 512px;
+}
+
+.padding-side-top{
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	line-height: 35px;
+}
+.padding-side-to{
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-left: 30px;
+	line-height: 35px;
+}
+.padding-side{
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-left: 30px;
+	line-height: 35px;
+}
+.padding-side-kings{
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-left: 30px;
+	line-height: 35px;
+}
+.padding-side-apple{
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-left: 30px;
+	line-height: 35px;
 }
 
 .tm-news-title {
